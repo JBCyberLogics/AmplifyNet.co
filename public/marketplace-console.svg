@@ -1,0 +1,63 @@
+<svg width="1300" height="900" viewBox="0 0 1300 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AmplifyNet marketplace dashboard preview</title>
+  <desc id="desc">A phone status advertising interface surrounded by verification, payment, and merchant approval panels.</desc>
+  <rect width="1300" height="900" rx="38" fill="#F7F4ED"/>
+  <path d="M75 141C75 96.8172 110.817 61 155 61H1132C1176.18 61 1212 96.8172 1212 141V760C1212 804.183 1176.18 840 1132 840H155C110.817 840 75 804.183 75 760V141Z" fill="#07111F"/>
+  <path d="M118 167C118 132.206 146.206 104 181 104H1105C1139.79 104 1168 132.206 1168 167V730C1168 764.794 1139.79 793 1105 793H181C146.206 793 118 764.794 118 730V167Z" fill="#FFFDF8"/>
+  <rect x="170" y="162" width="305" height="88" rx="12" fill="#E2F4EC"/>
+  <text x="200" y="198" fill="#07111F" font-family="Manrope, sans-serif" font-weight="800" font-size="28">AmplifyNet.co</text>
+  <text x="200" y="226" fill="#1F8D6A" font-family="Manrope, sans-serif" font-weight="700" font-size="17">Merchant approved</text>
+  <rect x="501" y="162" width="214" height="88" rx="12" fill="#F2CE78"/>
+  <text x="529" y="198" fill="#07111F" font-family="Manrope, sans-serif" font-weight="800" font-size="24">Verified views</text>
+  <text x="529" y="226" fill="#07111F" font-family="Manrope, sans-serif" font-weight="700" font-size="18">12,480 today</text>
+  <rect x="744" y="162" width="241" height="88" rx="12" fill="#102038"/>
+  <text x="774" y="198" fill="#FFFDF8" font-family="Manrope, sans-serif" font-weight="800" font-size="24">Pending payout</text>
+  <text x="774" y="226" fill="#F2CE78" font-family="Manrope, sans-serif" font-weight="700" font-size="18">Admin review</text>
+  <rect x="1014" y="162" width="104" height="88" rx="12" fill="#1F8D6A"/>
+  <circle cx="1044" cy="206" r="11" fill="#FFFDF8"/>
+  <circle cx="1083" cy="206" r="11" fill="#FFFDF8"/>
+  <rect x="193" y="314" width="298" height="330" rx="18" fill="#102038"/>
+  <rect x="218" y="348" width="248" height="90" rx="14" fill="#F7F4ED"/>
+  <rect x="239" y="371" width="82" height="45" rx="8" fill="#1F8D6A"/>
+  <rect x="336" y="371" width="104" height="10" rx="5" fill="#07111F"/>
+  <rect x="336" y="392" width="78" height="10" rx="5" fill="#C9993D"/>
+  <rect x="218" y="464" width="248" height="90" rx="14" fill="#F7F4ED"/>
+  <rect x="239" y="487" width="82" height="45" rx="8" fill="#9A4F2E"/>
+  <rect x="336" y="487" width="104" height="10" rx="5" fill="#07111F"/>
+  <rect x="336" y="508" width="78" height="10" rx="5" fill="#C9993D"/>
+  <rect x="218" y="580" width="248" height="38" rx="19" fill="#C9993D"/>
+  <text x="252" y="604" fill="#07111F" font-family="Manrope, sans-serif" font-weight="800" font-size="17">Download asset</text>
+  <g filter="url(#shadow)">
+    <rect x="554" y="289" width="246" height="463" rx="38" fill="#07111F"/>
+    <rect x="577" y="325" width="200" height="386" rx="28" fill="#F7F4ED"/>
+    <rect x="613" y="345" width="128" height="17" rx="8.5" fill="#102038"/>
+    <rect x="607" y="392" width="140" height="242" rx="22" fill="#1F8D6A"/>
+    <path d="M607 575C641 543 694 552 747 505V634H607V575Z" fill="#F2CE78"/>
+    <rect x="627" y="417" width="91" height="14" rx="7" fill="#FFFDF8"/>
+    <rect x="627" y="443" width="63" height="10" rx="5" fill="#D9EFE6"/>
+    <rect x="610" y="658" width="134" height="28" rx="14" fill="#07111F"/>
+  </g>
+  <rect x="850" y="313" width="250" height="148" rx="16" fill="#F7F4ED" stroke="#D8D0C0" stroke-width="2"/>
+  <text x="879" y="354" fill="#07111F" font-family="Manrope, sans-serif" font-weight="800" font-size="22">Evidence review</text>
+  <rect x="880" y="379" width="171" height="11" rx="5.5" fill="#C9993D"/>
+  <rect x="880" y="405" width="126" height="11" rx="5.5" fill="#1F8D6A"/>
+  <rect x="880" y="431" width="83" height="11" rx="5.5" fill="#102038"/>
+  <rect x="858" y="502" width="306" height="174" rx="16" fill="#E2F4EC"/>
+  <text x="891" y="548" fill="#07111F" font-family="Manrope, sans-serif" font-weight="800" font-size="23">M-Pesa status</text>
+  <rect x="892" y="579" width="218" height="18" rx="9" fill="#1F8D6A"/>
+  <rect x="892" y="615" width="154" height="18" rx="9" fill="#C9993D"/>
+  <circle cx="1097" cy="616" r="28" fill="#07111F"/>
+  <path d="M1085 616L1094 625L1111 604" stroke="#FFFDF8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <filter id="shadow" x="494" y="239" width="366" height="583" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="10"/>
+      <feGaussianBlur stdDeviation="30"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.027 0 0 0 0 0.067 0 0 0 0 0.122 0 0 0 0.32 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+</svg>
