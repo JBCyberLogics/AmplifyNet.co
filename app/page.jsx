@@ -233,7 +233,7 @@ export default function PlatformPage() {
     <div className="platform-shell">
       <header className="site-header">
         <button className="brand-button" onClick={() => setPage("home")} aria-label="Go to home">
-          <span className="brand-mark">AN</span>
+          <img src="/logo.png" alt="AmplifyNet.co Logo" className="brand-logo" />
           <span>
             <strong>{settings.name}</strong>
             <small>{settings.legalName}</small>

@@ -56,7 +56,7 @@ export default function Footer({ setPage }) {
           {/* Brand Column */}
           <div className="footer-brand">
             <div className="footer-logo">
-              <span className="footer-logo-icon">AN</span>
+              <img src="/logo.png" alt="AmplifyNet.co Logo" className="footer-logo-img" />
               <div>
                 <h3>AmplifyNet.co</h3>
                 <p>Kenyan WhatsApp Status Advertising Marketplace</p>

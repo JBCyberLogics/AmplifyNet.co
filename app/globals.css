@@ -121,16 +121,11 @@ main {
   text-align: left;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
+.brand-logo {
   width: 42px;
   height: 42px;
-  border-radius: 6px;
-  background: var(--ink);
-  color: var(--paper);
-  font-weight: 800;
-  letter-spacing: 0;
+  border-radius: 8px;
+  object-fit: contain;
 }
 
 .brand-button small {
@@ -2359,16 +2354,11 @@ button:focus-visible {
   gap: 12px;
 }
 
-.footer-logo-icon {
-  display: grid;
-  place-items: center;
+.footer-logo-img {
   width: 48px;
   height: 48px;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--green), #25D366);
-  color: white;
-  font-weight: 800;
-  font-size: 1.1rem;
+  object-fit: contain;
 }
 
 .footer-logo h3 {
