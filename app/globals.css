@@ -3496,3 +3496,71 @@ button:focus-visible {
     height: 60vh;
   }
 }
+
+/* ===== FORM MESSAGES ===== */
+
+.form-success-message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  background: rgba(31, 141, 106, 0.15);
+  border: 1px solid rgba(31, 141, 106, 0.3);
+  border-radius: 12px;
+  color: var(--green);
+  font-size: 0.9rem;
+}
+
+.form-success-message svg {
+  flex-shrink: 0;
+}
+
+.form-error-message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 12px;
+  color: #ef4444;
+  font-size: 0.9rem;
+}
+
+.form-error-message svg {
+  flex-shrink: 0;
+}
+
+/* Loading spinner animation */
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Disabled input styles */
+.glass-input-group input:disabled,
+.glass-input-group select:disabled,
+.glass-input-group textarea:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.glass-submit-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.glass-submit-btn:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
