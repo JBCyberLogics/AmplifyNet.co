@@ -75,7 +75,7 @@ export default function ContactSection({ settings }) {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: "b3e780ba-e16c-4910-ad4c-8def890b114c",
+          access_key: process.env.NEXT_PUBLIC_WEB3FORBS_ACCESS_KEY,
           name: formData.name,
           email: formData.email,
           topic: formData.topic,
@@ -208,8 +208,8 @@ export default function ContactSection({ settings }) {
               className="glass-form"
               onSubmit={handleSubmit}
             >
-              {/* Web3Forms Access Key - Replace with your key */}
-              <input type="hidden" name="access_key" value="b3e780ba-e16c-4910-ad4c-8def890b114c" />
+              {/* Web3Forms Access Key */}
+              <input type="hidden" name="access_key" value={process.env.NEXT_PUBLIC_WEB3FORBS_ACCESS_KEY} />
               <input type="hidden" name="subject" value="New Contact Form Submission - AmplifyNet" />
 
               <div className="glass-form-row">
