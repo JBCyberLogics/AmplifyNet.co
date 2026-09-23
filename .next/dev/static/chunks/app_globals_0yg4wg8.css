@@ -86,9 +86,9 @@ section, main {
 .site-header {
   z-index: 20;
   width: min(var(--max), calc(100% - 28px));
-  -webkit-backdrop-filter: blur(20px);
-  background: #ffffff26;
-  border: 1px solid #fff3;
+  -webkit-backdrop-filter: none;
+  background: #14213d;
+  border: 1px solid #14213d;
   border-radius: 16px;
   align-items: center;
   gap: 20px;
@@ -97,7 +97,15 @@ section, main {
   display: flex;
   position: sticky;
   top: 0;
-  box-shadow: 0 8px 32px #07111f1a;
+  box-shadow: 0 8px 32px #0000004d;
+}
+
+.site-header .brand-button strong, .site-header .site-nav button {
+  color: #f7f4ed;
+}
+
+.site-header .brand-button small {
+  color: #aab4c3;
 }
 
 .brand-button, .site-nav button, .icon-button, .primary, .secondary, .text-button, .icon-action, .role-switch button {
@@ -115,16 +123,11 @@ section, main {
   display: flex;
 }
 
-.brand-mark {
-  background: var(--ink);
+.brand-logo {
+  object-fit: contain;
+  border-radius: 8px;
   width: 42px;
   height: 42px;
-  color: var(--paper);
-  letter-spacing: 0;
-  border-radius: 6px;
-  place-items: center;
-  font-weight: 800;
-  display: grid;
 }
 
 .brand-button small {
@@ -2205,16 +2208,11 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
   display: flex;
 }
 
-.footer-logo-icon {
-  background: linear-gradient(135deg, var(--green), #25d366);
-  color: #fff;
+.footer-logo-img {
+  object-fit: contain;
   border-radius: 12px;
-  place-items: center;
   width: 48px;
   height: 48px;
-  font-size: 1.1rem;
-  font-weight: 800;
-  display: grid;
 }
 
 .footer-logo h3 {
@@ -3297,6 +3295,69 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
     width: calc(100vw - 24px);
     height: 60vh;
   }
+}
+
+.form-success-message {
+  color: var(--green);
+  background: #1f8d6a26;
+  border: 1px solid #1f8d6a4d;
+  border-radius: 12px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 14px 18px;
+  font-size: .9rem;
+  display: flex;
+}
+
+.form-success-message svg {
+  flex-shrink: 0;
+}
+
+.form-error-message {
+  color: #ef4444;
+  background: #ef444426;
+  border: 1px solid #ef44444d;
+  border-radius: 12px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 14px 18px;
+  font-size: .9rem;
+  display: flex;
+}
+
+.form-error-message svg {
+  flex-shrink: 0;
+}
+
+.spin {
+  animation: 1s linear infinite spin;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.glass-input-group input:disabled, .glass-input-group select:disabled, .glass-input-group textarea:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+.glass-submit-btn:disabled {
+  opacity: .7;
+  cursor: not-allowed;
+}
+
+.glass-submit-btn:disabled:hover {
+  box-shadow: none;
+  transform: none;
 }
 
 /*# sourceMappingURL=app_globals_0yg4wg8.css.map*/

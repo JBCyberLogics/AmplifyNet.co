@@ -105,7 +105,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/home/darkage/Desktop/StatusMetrics",
+    "outputFileTracingRoot": "/home/blackvail/AmplifyNet.co",
     "enablePrerenderSourceMaps": true,
     "cacheComponents": false,
     "cacheLife": {
@@ -320,13 +320,13 @@
     "htmlLimitedBots": "[\\w-]+-Google|Google-[\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight",
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
-    "repoRoot": "/home/darkage/Desktop/StatusMetrics",
+    "repoRoot": "/home/blackvail/AmplifyNet.co",
     "turbopack": {
-      "root": "/home/darkage/Desktop/StatusMetrics"
+      "root": "/home/blackvail/AmplifyNet.co"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/home/darkage/Desktop/StatusMetrics",
+  "appDir": "/home/blackvail/AmplifyNet.co",
   "relativeAppDir": "",
   "files": [
     ".next/package.json",

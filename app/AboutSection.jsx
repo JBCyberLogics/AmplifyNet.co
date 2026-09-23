@@ -48,7 +48,7 @@ const milestones = [
   { year: "2026", title: "M-Pesa Integration", description: "Seamless payment processing with Daraja API integration." },
 ];
 
-export default function AboutSection({ settings }) {
+export default function AboutSection({ settings, setPage }) {
   return (
     <section className="about-glass-section">
       {/* Background elements */}
@@ -143,7 +143,7 @@ export default function AboutSection({ settings }) {
         <div className="about-cta-card">
           <h2>Ready to Join?</h2>
           <p>Become part of Kenya's fastest growing WhatsApp advertising marketplace.</p>
-          <button className="about-cta-btn">
+          <button className="about-cta-btn" onClick={() => setPage("register")}>
             Get Started <ArrowRight size={18} />
           </button>
         </div>

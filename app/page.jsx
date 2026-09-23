@@ -190,7 +190,7 @@ export default function PlatformPage() {
   const currentPage = useMemo(() => {
     switch (page) {
       case "about":
-        return <AboutSection settings={settings} />;
+        return <AboutSection settings={settings} setPage={setPage} />;
       case "how":
         return <HowItWorks />;
       case "pricing":
@@ -302,7 +302,7 @@ function Home({ settings, setPage }) {
           </div>
         </div>
         <div className="hero-art" aria-label="AmplifyNet product interface preview">
-          <img src="/marketplace-console.svg" alt="Marketplace dashboard and phone status preview" />
+          <img src="/logo.png" alt="Marketplace dashboard and phone status preview" />
         </div>
       </section>
 
